@@ -1,0 +1,101 @@
+
+
+@font-face {
+  font-family: 'zombie_holocaust';
+  src: url('../Fonts/Zombie_HoloCaust.ttf');
+}
+
+body {
+  background: black;
+  background-image: url('../graveyardBackground.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+  
+h1 {
+  color: darkgreen;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'zombie_holocaust', sans-serif;
+}
+
+h3 {
+  color: red;
+  margin: auto;
+  font-style: italic;
+  background-color: teal;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#bar > button {
+  margin: 15px 15px 15px 30px;
+  padding: 5px 10px 5px 10px;
+  font-size: 16px;
+}
+
+#timer {
+  color: black;
+  margin: auto;
+  width: 70px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  background-color: gray;
+}
+
+#flagCount {
+  color: black;
+  margin: auto;
+  width: 150px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  background-color: teal;
+}
+
+#grid {
+  margin: auto;
+}
+  
+table {
+  border: 5px solid teal;
+
+}
+
+td, .empty {
+  background: #999999;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.flag {
+  background: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+  
+td.clicked {
+  background: #333333;
+}
+  
+.zombie {
+  background-color: greenyellow;
+  background-image: url('../zombie.png');
+  background-size: cover;
+  background-position: center;
+}
+  
+button {
+  background-color: teal;
+  margin: 15px;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+}
+
+.revealed{
+  background-color: #333333;
+}
